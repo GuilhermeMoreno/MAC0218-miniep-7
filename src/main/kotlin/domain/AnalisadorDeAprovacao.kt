@@ -16,9 +16,9 @@ class AnalisadorDeAprovacao {
 	fun fechaBoletim(boletim : Boletim) : BoletimFechado{
 		return BoletimFechado(
 			mediaEPs = boletim.mediaEPs,
-            mediaMiniEPs = boletim.mediaMiniEPs,			
-            mediaFinal = criterioAtual.mediaFinal(boletim),
+            		mediaMiniEPs = boletim.mediaMiniEPs,			
+            		mediaFinal = criterioAtual.mediaFinal(boletim),
 			foiAprovado = criterioAtual.estaAprovado(boletim)
-        )
+        	)
 	}
 }
