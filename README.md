@@ -1,7 +1,5 @@
-# Mini EP 7
-
-Testes são uma especificação?
----
+# MAC0218 - Técnicas de Programação II
+## Mini EP 7
 
 Neste EP, vamos encarar testes como uma forma de se fazer a documentação e a especificação de um software.
 Você deve implementar a classe `AnalisadorDeAprovacao` (encontrada em `src/main/kotlin/domain/AnalisadorDeAprovacao.kt`)
